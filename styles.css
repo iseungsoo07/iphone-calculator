@@ -1,0 +1,52 @@
+@import "reset.css";
+
+body {
+   padding: 10px;
+   background-color: black;
+}
+
+.wrapper {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   justify-items: center;
+}
+
+.wrapper span {
+   margin: 15px;
+}
+
+.bgGray {
+   background-color: #a5a5a5;
+}
+
+.circleBtn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 90px;
+   height: 90px;
+   font-size: 30px;
+   border-radius: 50%;
+   font-weight: bold;
+}
+
+.yellowBtn {
+   background-color: #fe9e09;
+}
+
+.zero {
+   box-sizing: border-box;
+   display: flex;
+   align-items: center;
+   padding: 0px 35px;
+   border-radius: 40px;
+   font-weight: bold;
+   font-size: 30px;
+   grid-column: 1/3;
+   width: 40vw;
+}
+
+.spacegrayBtn {
+   background-color: #333333;
+   color: white;
+}
